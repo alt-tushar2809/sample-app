@@ -1,17 +1,14 @@
 {
-  "name": "my-first-node-app",
+  "name": "sample-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Your application description",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "d3": "^6.7.0",
-    "dotenv": "^8.2.0",
-    "firebase-admin": "^10.0.2",
-    "node-fetch": "^2.6.1"
+    "express": "^4.17.1",
+    "other-dependency": "^1.2.3"
   }
+  
 }
