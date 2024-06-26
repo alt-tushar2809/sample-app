@@ -4,7 +4,7 @@ FROM node:14
 # Set the working directory
 WORKDIR /usr/src/app
 
-# Copy the package.json and package-lock.json files
+# Copy package.json and package-lock.json files
 COPY package*.json ./
 
 # Install dependencies
@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 3000
 
 # Start the application
-CMD ["npm", "start"]
+CMD ["node", "server.js"]
